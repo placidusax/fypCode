@@ -2,9 +2,9 @@
 //https://theiotprojects.com
 
 // blynk start------------------------------------
-#define BLYNK_TEMPLATE_ID "TMPL8wtZ52PI"
-#define BLYNK_DEVICE_NAME "fallCopy"
-#define BLYNK_AUTH_TOKEN "hO3qfNBJ4wBpc02Pj3GJGglqz0F1Cizi"
+#define BLYNK_TEMPLATE_ID "YourTemplateName"
+#define BLYNK_DEVICE_NAME "YourDeviceName"
+#define BLYNK_AUTH_TOKEN "YourAuthToken"
 
 // Comment this out to disable prints and save space
 #define BLYNK_PRINT Serial
@@ -26,16 +26,16 @@
 
 //firebase start-----------------------------
 /* 1. Define the WiFi credentials */
-#define WIFI_SSID "kot"
-#define WIFI_PASSWORD "butohpakhang"
+#define WIFI_SSID "YourWifiName"
+#define WIFI_PASSWORD "YourWifiPass"
 
 // For the following credentials, see examples/Authentications/SignInAsUser/EmailPassword/EmailPassword.ino
 
 /* 2. Define the API Key */
-#define API_KEY "AIzaSyDZo4vN88wtMyYdH0MDWTtrxalski5G1Uc"
+#define API_KEY "YourApiKeyFirebase"
 
 /* 3. Define the RTDB URL */
-#define DATABASE_URL "https://iot-wearable-bbb7e-default-rtdb.asia-southeast1.firebasedatabase.app/" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "your database url" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 
 /* 4. Define the user Email and password that alreadey registerd or added in your project */
 // Define Firebase Data object
@@ -70,8 +70,8 @@ char authb[] = BLYNK_AUTH_TOKEN;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "kot";
-char pass[]= "butohpakhang";
+char ssid[] = "your wifi ssid";
+char pass[]= "your wifi pass";
 // Attach virtual serial terminal to Virtual Pin V1
 WidgetTerminal terminal(V1);
 // blynk end--------------------------------------
